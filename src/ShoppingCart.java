@@ -10,7 +10,7 @@ public class ShoppingCart{
         for(int i = 0; i < 10; i++) {
             price = input.nextInt();
 
-            list[i] = new Product(Integer.toString(i), price, "Ite in list");
+            list[i] = new Product(Integer.toString(i), price, "Item in list");
         }
         return list;
     }
